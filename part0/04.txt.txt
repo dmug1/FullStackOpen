@@ -1,0 +1,17 @@
+title Fullstack Open
+
+Browser->Server: https://fullstack-exampleapp.herokuapp.com/new_note
+Server ->Browser: Response: Status Code: 302 found
+#server send reload order to browser
+Browser ->Server: Get https://fullstack-exampleapp.herokuapp.com/notes
+Server ->Browser: Sends HTML file
+Browser ->Server: Get https://fullstack-exampleapp.herokuapp.com/main.css
+Server ->Browser: Sends CSS file
+Browser ->Server: Get https://fullstack-exampleapp.herokuapp.com/main.js
+Server ->Browser: Sends Javascript file
+#Browser runs JS file "GET", "/data.json" on line 22.
+Browser ->Server: Get https://fullstack-exampleapp.herokuapp.com/data.json
+Server ->Browser: Sends Json file
+#Browser insert values on the list inside the for each loop and then shows it in the screen.
+
+
